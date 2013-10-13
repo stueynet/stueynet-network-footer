@@ -4,7 +4,7 @@
  * Plugin Name: Stueynet Footer
  * Plugin URI: http://stuey.net
  * Description: Stueynet Footer on the bottom
- * Version: 0.1
+ * Version: 0.2
  * Author: Stuart Starr
  * Author URI: httpo://stuey.net
 */
@@ -23,7 +23,7 @@ include_once('updater.php');
         'raw_url' => 'https://raw.github.com/username/stueynet-network-footer/master', // the github raw url of your github repo
         'github_url' => 'https://github.com/stueynet/stueynet-network-footer', // the github url of your github repo
         'zip_url' => 'https://github.com/stueynet/stueynet-network-footer/zipball/master', // the zip url of the github repo
-        'sslverify' => true // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
+        'sslverify' => true, // wether WP should check the validity of the SSL cert when getting an update, see https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/2 and https://github.com/jkudish/WordPress-GitHub-Plugin-Updater/issues/4 for details
         'requires' => '3.0', // which version of WordPress does your plugin require?
         'tested' => '3.3', // which version of WordPress is your plugin tested up to?
         'readme' => 'README.md', // which file to use as the readme for the version number
